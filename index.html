@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya Neupane | PR & Marketing Strategist</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+  body{color:#333;scroll-behavior:smooth}
+  a{text-decoration:none;color:inherit}
+
+  /* HERO */
+  header {
+    min-height: 100vh;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/images/hero-bg.jpg') center/cover no-repeat;
+  }
+
+  header img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom:20px;
+    object-fit: cover;
+  }
+
+  header h1 {
+    font-size: 42px;
+    margin-bottom:10px;
+  }
+
+  header p {
+    font-size: 20px;
+    margin-bottom:20px;
+    line-height:1.4;
+  }
+
+  .btn{
+    background: #3498db;
+    padding: 12px 25px;
+    color:white;
+    border-radius: 25px;
+    margin-bottom: 15px;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+    display:flex;
+    gap:15px;
+    justify-content:center;
+  }
+
+  .social-icons img{
+    width:60px;
+    height:60px;
+    transition: transform 0.3s;
+  }
+
+  .social-icons img:hover{
+    transform: scale(1.3);
+    opacity: 0.8;
+  }
+
+  /* SECTIONS */
+  section{padding:60px 20px;max-width:1100px;margin:auto}
+  h2{text-align:center;margin-bottom:40px;font-size:32px;color:#3498db}
+
+  /* Services */
+  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+  .card{padding:20px;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.1);text-align:center;background:#f9f9f9}
+  .card h3{margin-bottom:10px;color:#3498db}
+  .card p{font-size:16px;color:#555}
+
+  /* Clients */
+  .clients{display:flex;flex-wrap:wrap;justify-content:center;gap:30px;align-items:center}
+  .clients img{width:120px;filter:grayscale(30%);transition: transform 0.3s;}
+  .clients img:hover{transform: scale(1.1); filter: grayscale(0%);}
+
+  /* Contact */
+  .contact{text-align:center}
+  .contact p{margin-bottom:15px;font-size:18px}
+
+  /* Footer */
+  footer{text-align:center;padding:20px;background:#111;color:#fff;margin-top:40px}
+
+  /* Responsive */
+  @media(max-width:600px){
+    header h1{font-size:32px}
+    header p{font-size:16px}
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<header>
+  <img src="assets/images/profile.jpg" alt="Profile Picture">
+  <h1>Aditya Neupane</h1>
+  <p>PR & Marketing Strategist | <em>Helping Brands Gain Visibility</em></p>
+  <a href="#contact" class="btn">Work With Me</a>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/aditya-neupane-29315a176/" target="_blank">
+      <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+    </a>
+    <a href="https://www.instagram.com/addy_dhungana/?hl=en" target="_blank">
+      <img src="assets/icons/instagram.svg" alt="Instagram">
+    </a>
+    <a href="https://www.facebook.com/aditya.neupane.56" target="_blank">
+      <img src="assets/icons/facebook.svg" alt="Facebook">
+    </a>
+  </div>
+</header>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+  <h2>About Me</h2>
+  <p style="text-align:center;max-width:700px;margin:auto;">
+    I am a PR and marketing professional with extensive experience in journalism, communication, and brand strategy. I help businesses gain visibility, connect with the right audience, and achieve tangible results through strategic campaigns.
+  </p>
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="services">
+  <h2>Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Public Relations</h3>
+      <p>Media coverage, press releases, and strategic brand positioning for maximum visibility.</p>
+    </div>
+    <div class="card">
+      <h3>Digital Marketing</h3>
+      <p>Social media campaigns, content strategy, and online growth initiatives tailored to your brand.</p>
+    </div>
+    <div class="card">
+      <h3>Brand Strategy</h3>
+      <p>Building your identity and market positioning to attract the right audience.</p>
+    </div>
+    <div class="card">
+      <h3>Campaign Management</h3>
+      <p>End-to-end planning and execution of marketing campaigns for measurable results.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS SECTION -->
+<section id="clients">
+  <h2>Clients</h2>
+  <div class="clients">
+    <a href="https://naimanepal.org/" target="_blank">
+      <img src="assets/logos/client-1.png" alt="NAIMA">
+    </a>
+    <a href="https://mss.com.np/" target="_blank">
+      <img src="assets/logos/client-2.png" alt="Media Space Solutions">
+    </a>
+    <a href="https://www.tranquilityspa.com.np/" target="_blank">
+      <img src="assets/logos/client-3.png" alt="Tranquility Spa">
+    </a>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>Open to freelance PR & marketing collaborations</p>
+  <p>Email: <a href="mailto:addydhungana@gmail.com">addydhungana@gmail.com</a></p>
+  <a href="https://wa.me/9779802351294" class="btn">WhatsApp Me</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Aditya Neupane</p>
+</footer>
+
+</body>
+</html>
